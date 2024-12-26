@@ -2,13 +2,11 @@
   "name": "url-shortner",
   "version": "1.0.0",
   "description": "A simple URL shortener built using TDD.",
-  "main": "src/urlShortener.js",
+  "main": "src/url-shortener.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["URL shortener", "TDD", "Node.js"],
   "devDependencies": {
     "jest": "29.7.0"
   }

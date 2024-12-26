@@ -15,7 +15,8 @@ A simple project demonstrating TDD principles for building a URL Shortener in No
 ### Git Commit Workflow
 
 1. **Initial project setup with Jest.**
-   - Added `package.json`, `.gitignore`, and `jest.config.js`.
+   - Added `package.json`, `.gitignore`.
 
 2. **Wrote a failing test for shorten() method.**
+   - Added `jest.config.js` and updated the `package.json` to handle `npm test`
    - Added the `shorten()` test in `tests/urlShortener.test.js`.
