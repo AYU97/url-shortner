@@ -20,3 +20,6 @@ A simple project demonstrating TDD principles for building a URL Shortener in No
 2. **Wrote a failing test for shorten() method.**
    - Added `jest.config.js` and updated the `package.json` to handle `npm test`
    - Added the `shorten()` test in `tests/urlShortener.test.js`.
+
+3. **Implemented shorten() to pass the test.**
+   - Hardcoded return value in `shorten()` method.
