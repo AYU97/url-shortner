@@ -19,4 +19,11 @@ describe('UrlShortener', () => {
         const retrievedUrl = shortener.expand(shortUrl);
         expect(retrievedUrl).toBe(longUrl);
     });
+
+    it('should handle non-existent short URLs gracefully', () => {
+        const shortener = new UrlShortener();
+        const shortUrl = 'http://short.ly/invalid';
+        const retrievedUrl = shortener.expand(shortUrl);
+        expect(retrievedUrl).toBeNull();
+    });
 });
