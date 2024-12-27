@@ -31,3 +31,7 @@ A simple project demonstrating TDD principles for building a URL Shortener in No
 5. **Implemented expand() to pass the test and updated the shorten() to be dyanmic.**
    - Added a `Map` to store and retrieve URLs.
    - Updated the `shorten()` to be dynamic.
+
+6. **Added test and verified handling of invalid short URLs.**
+   - Tested for invalid short URLs and unique short URLs.
+   
