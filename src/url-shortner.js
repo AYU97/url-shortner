@@ -6,7 +6,9 @@ class UrlShortener {
     shorten(longUrl) {
         const shortId = Math.random().toString(36).substring(2, 8);
         const shortUrl = `http://short.ly/${shortId}`;
-        this.urlMap.set(shortUrl, longUrl);
+        if (!this.urlMap.has(shortUrl)) {
+            this.urlMap.set(shortUrl, longUrl);
+        }
         return shortUrl;
     }
 

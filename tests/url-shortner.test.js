@@ -26,4 +26,12 @@ describe('UrlShortener', () => {
         const retrievedUrl = shortener.expand(shortUrl);
         expect(retrievedUrl).toBeNull();
     });
+
+    it('should generate unique short URLs for different long URLs', () => {
+        const longUrl1 = 'https://example.com/path1';
+        const longUrl2 = 'https://example.com/path2';
+        const shortUrl1 = shortener.shorten(longUrl1);
+        const shortUrl2 = shortener.shorten(longUrl2);
+        expect(shortUrl1).not.toBe(shortUrl2);
+    });
 });
