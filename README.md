@@ -27,3 +27,7 @@ A simple project demonstrating TDD principles for building a URL Shortener in No
 
 4. **Wrote a failing test for expand() method.**
    - Added the `expand()` test in `tests/url-shortener.test.js`.
+
+5. **Implemented expand() to pass the test and updated the shorten() to be dyanmic.**
+   - Added a `Map` to store and retrieve URLs.
+   - Updated the `shorten()` to be dynamic.
