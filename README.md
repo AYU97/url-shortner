@@ -34,4 +34,6 @@ A simple project demonstrating TDD principles for building a URL Shortener in No
 
 6. **Added test and verified handling of invalid short URLs.**
    - Tested for invalid short URLs and unique short URLs.
-   
+
+7. **Refactored shorten method to ensure unique short URLs.**
+   - Tested for unique short URLs.
