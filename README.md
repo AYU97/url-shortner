@@ -37,3 +37,5 @@ A simple project demonstrating TDD principles for building a URL Shortener in No
 
 7. **Refactored shorten method to ensure unique short URLs.**
    - Tested for unique short URLs.
+
+8. **Added comments for better understanding**
